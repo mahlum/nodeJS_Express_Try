@@ -11,6 +11,8 @@ var express = require('express')
 
 var app = express();
 
+app.locals.points = "8,713";
+
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
